@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Koyyada Abhigna | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursor-follower"></div>
+
+  <!-- Noise Overlay -->
+  <div class="noise"></div>
+
+  <!-- ─── NAV ─── -->
+  <nav id="navbar">
+    <div class="nav-logo">KA<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    
+      </button>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-glow glow-1"></div>
+    <div class="hero-glow glow-2"></div>
+
+    <div class="hero-content">
+      <p class="hero-greeting reveal">Hello, World 👋</p>
+      <h1 class="hero-name reveal">
+        Koyyada<br/><span class="neon-text">Abhigna</span>
+      </h1>
+      <p class="hero-tagline reveal">Full-Stack Developer &amp; UI Enthusiast</p>
+      <p class="hero-sub reveal">Building digital experiences that live at the intersection of design &amp; code.</p>
+      <div class="hero-cta reveal">
+        <a href="#projects" class="btn-primary">View Work</a>
+        <a href="./Resume/MY_RESUME.pdf"download class="btn-outline"><i class="fas fa-download"></i> Resume</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section id="about">
+    <div class="section-label">01 / About</div>
+    <div class="about-grid">
+      <div class="about-text reveal-left">
+        <h2 class="section-title">Who I Am</h2>
+        <p>
+          I'm <strong>Koyyada Abhigna</strong>, a passionate Full-Stack Developer with a keen eye for crafting clean, performant, and beautiful web applications. I thrive at the intersection of creativity and logic.
+        </p>
+        <p>
+          With hands-on experience in the MERN stack, I enjoy turning complex problems into elegant solutions. I'm constantly learning, building, and pushing my limits — one commit at a time.
+        </p>
+        <p>
+          When I'm not coding, you'll find me exploring UI trends, contributing to open source, or brewing strong coffee ☕.
+        </p>
+        <div class="about-chips">
+          <span>Open to Work</span>
+          <span>Based in India 🇮🇳</span>
+          <span>MERN Specialist</span>
+        </div>
+      </div>
+      <div class="about-visual reveal-right">
+        <div class="profile-image-container">
+          <div class="profile-glow"></div>
+          <div class="profile-ring"></div>
+          <!-- NOTE: Replace "profile.jpg" with your uploaded image filename -->
+          <img src="./images/IMG_0347.PNG"class="profile-img" />
+          
+          <!-- Animated particles -->
+          <div class="particle p1"></div>
+          <div class="particle p2"></div>
+          <div class="particle p3"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── TECH STACK ─── -->
+  <section id="stack">
+    <div class="section-label">02 / Stack</div>
+    <h2 class="section-title center reveal">My Tech Stack</h2>
+    <p class="section-sub center reveal">Tools I work with daily</p>
+    <div class="stack-grid">
+      <div class="stack-card reveal" data-delay="0">
+        <div class="stack-icon"><i class="fab fa-html5"></i></div>
+        <span>HTML5</span>
+      </div>
+      <div class="stack-card reveal" data-delay="50">
+        <div class="stack-icon"><i class="fab fa-css3-alt"></i></div>
+        <span>CSS3</span>
+      </div>
+      <div class="stack-card reveal" data-delay="100">
+        <div class="stack-icon"><i class="fab fa-js-square"></i></div>
+        <span>JavaScript</span>
+      </div>
+      <div class="stack-card reveal" data-delay="150">
+        <div class="stack-icon"><i class="fab fa-react"></i></div>
+        <span>React</span>
+      </div>
+      <div class="stack-card reveal" data-delay="200">
+        <div class="stack-icon"><i class="fab fa-node-js"></i></div>
+        <span>Node.js</span>
+      </div>
+      <div class="stack-card reveal" data-delay="250">
+        <div class="stack-icon mongo-icon">M</div>
+        <span>MongoDB</span>
+      </div>
+      <div class="stack-card reveal" data-delay="300">
+        <div class="stack-icon express-icon">Ex</div>
+        <span>Express.js</span>
+      </div>
+      <div class="stack-card reveal" data-delay="350">
+        <div class="stack-icon"><i class="fab fa-git-alt"></i></div>
+        <span>Git</span>
+      </div>
+      <div class="stack-card reveal" data-delay="400">
+        <div class="stack-icon"><i class="fab fa-github"></i></div>
+        <span>GitHub</span>
+      </div>
+      <div class="stack-card reveal" data-delay="450">
+        <div class="stack-icon tailwind-icon">TW</div>
+        <span>Tailwind</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ─── -->
+  <section id="projects">
+    <div class="section-label">03 / Projects</div>
+    <h2 class="section-title center reveal">Featured Projects</h2>
+    <p class="section-sub center reveal">Things I've built &amp; shipped</p>
+    <div class="projects-grid">
+
+      <div class="project-card reveal" data-delay="0">
+        <div class="project-number">01</div>
+        <div class="project-tags">
+          <span>MERN</span><span>Full-Stack</span>
+        </div>
+        <h3 class="project-title">AI Powered Eco Tourism Platform</h3>
+        <p class="project-desc">AI-powered sustainable travel web application that promotes eco-friendly tourism through local guidessmart recommendations, carbon tracking, real-time environmental insights, and cultural exploration.</p>
+        <div class="project-links">
+          <a href="https://github.com/koyyadaabhigna/EcoTourism-AI-Platform.git" target="_blank" rel="noopener" class="proj-link"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://ecotourism-ai-platform.onrender.com" target="_blank" rel="noopener" class="proj-link live"><i class="fas fa-external-link-alt"></i> Live</a>
+        </div>
+        <div class="project-glow"></div>
+      </div>
+
+      <div class="project-card reveal" data-delay="100">
+        <div class="project-number">02</div>
+        <div class="project-tags">
+          <span>React</span><span>Node.js</span><span>MongoDB</span>
+        </div>
+        <h3 class="project-title">Vidyastaan</h3>
+        <p class="project-desc">Vidyastaan is a comprehensive platform that bridges the education gap in India by enabling peer-to-peer mentorship between college volunteers and school students. Our mission is to ensure every child gets the personalized guidance they deserve, regardless of their socioeconomic background.</p>
+        <div class="project-links">
+          <a href="https://github.com/koyyadaabhigna/vidyastaan-new.git" target="_blank" rel="noopener" class="proj-link"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://vidyastaan-new-sblu.vercel.app/" target="_blank" rel="noopener" class="proj-link live"><i class="fas fa-external-link-alt"></i> Live</a>
+        </div>
+        <div class="project-glow"></div>
+      </div>
+
+      
+    </div>
+  </section>
+
+  <!-- ─── EDUCATION ─── -->
+  <section id="education">
+    <div class="section-label">04 / Education</div>
+    <h2 class="section-title center reveal">Education</h2>
+    <p class="section-sub center reveal">My academic journey</p>
+    <div class="education-grid">
+      
+      <div class="education-card reveal" data-delay="0">
+        <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+        <div class="edu-content">
+          <h3 class="edu-title">B.Tech in Computer Science</h3>
+          <p class="edu-institution">BV Raju Institute of Technology, Narsapur, Telangana, India</p>
+          <div class="edu-details">
+            <span class="edu-year">Expected: 2028</span>
+            <span class="edu-score">CGPA: 8.7/10</span>
+          </div>
+        </div>
+        <div class="edu-glow"></div>
+      </div>
+
+      <div class="education-card reveal" data-delay="100">
+        <div class="edu-icon"><i class="fas fa-school"></i></div>
+        <div class="edu-content">
+          <h3 class="edu-title">Intermediate (MPC)</h3>
+          <p class="edu-institution">Sri Chaitanya Junior College, Telangana, India</p>
+          <div class="edu-details">
+            <span class="edu-year">2024</span>
+            <span class="edu-score">Percentage: 98%</span>
+          </div>
+        </div>
+        <div class="edu-glow"></div>
+      </div>
+
+      <div class="education-card reveal" data-delay="200">
+        <div class="edu-icon"><i class="fas fa-book"></i></div>
+        <div class="edu-content">
+          <h3 class="edu-title">SSC</h3>
+          <p class="edu-institution">Good Morning Grammar High School, Telangana, India</p>
+          <div class="edu-details">
+            <span class="edu-year">2022</span>
+            <span class="edu-score">GPA: 9.5/10</span>
+          </div>
+        </div>
+        <div class="edu-glow"></div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+      
+  
+          
+            
+        
+
+  <!-- ─── SKILLS ─── -->
+  <section id="skills">
+    <div class="section-label">05 / Skills</div>
+    <h2 class="section-title center reveal">Skill Levels</h2>
+    <p class="section-sub center reveal">Proficiency across domains</p>
+    <div class="skills-container">
+      <div class="skill-item reveal" data-delay="0">
+        <div class="skill-header">
+          <span class="skill-name">Frontend Development</span>
+          <span class="skill-pct">90%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+      </div>
+      <div class="skill-item reveal" data-delay="80">
+        <div class="skill-header">
+          <span class="skill-name">Backend / Node.js</span>
+          <span class="skill-pct">70%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+      </div>
+      <div class="skill-item reveal" data-delay="160">
+        <div class="skill-header">
+          <span class="skill-name">MongoDB / Databases</span>
+          <span class="skill-pct">80%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="80"></div></div>
+      </div>
+      <div class="skill-item reveal" data-delay="240">
+        <div class="skill-header">
+          <span class="skill-name">React.js</span>
+          <span class="skill-pct">75%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+      </div>
+      <div class="skill-item reveal" data-delay="320">
+        <div class="skill-header">
+          <span class="skill-name">UI/UX & CSS Animations</span>
+          <span class="skill-pct">60%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="60"></div></div>
+      </div>
+      <div class="skill-item reveal" data-delay="400">
+        <div class="skill-header">
+          <span class="skill-name">Git & Version Control</span>
+          <span class="skill-pct">82%</span>
+        </div>
+        <div class="skill-bar"><div class="skill-fill" data-width="82"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section id="contact">
+    <div class="section-label">06 / Contact</div>
+    <div class="contact-grid">
+      <div class="contact-info reveal-left">
+        <h2 class="section-title">Let's Work<br/><span class="neon-text">Together</span></h2>
+        <p>Have a project in mind? Want to collaborate or just say hi? Fill the form and I'll get back to you within 24 hours.</p>
+        <div class="contact-detail">
+          <i class="fas fa-envelope"></i>
+          <span>koyyadaabhigna@gmail.com</span>
+        </div>
+        <div class="contact-detail">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Hyderabad, Telangana, India</span>
+        </div>
+      </div>
+      <div class="contact-form-wrap reveal-right">
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Koyyada Abhigna" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="hello@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width" id="submitBtn">
+            <span id="btnText">Send Message</span>
+            <i class="fas fa-paper-plane" id="btnIcon"></i>
+          </button>
+          <div id="formStatus" class="form-status"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">KA<span class="dot">.</span></div>
+      <p class="footer-copy">Designed &amp; Built by <strong>Koyyada Abhigna</strong> · 2024</p>
+      <div class="footer-socials">
+        <a href="https://github.com/koyyadaabhigna" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/abhigna-koyyada-a63a1433b/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/__abhigna____/" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
