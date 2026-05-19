@@ -42,7 +42,7 @@ npm run dev                 # uses nodemon (auto-reload)
 npm start                   # plain node
 ```
 
-The API will be live at **http://localhost:5000**
+
 
 ---
 
